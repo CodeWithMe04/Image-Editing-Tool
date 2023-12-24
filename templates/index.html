@@ -26,8 +26,8 @@
       </div>
     </nav>
     <div class="container">
-      <h1 class="fs-2 text">Hello, world!</h1>
-      <form action="/edit">
+      <h1 class="fs-2 text">Select and Edit</h1>
+      <form action="/edit" method="post" enctype="multipart/form-data">
         <div class="mb-3">
           <label for="formFile" class="form-label">Select images to edit</label>
           <input class="form-control" type="file" id="formFile">
@@ -41,6 +41,9 @@
             <option value="cjpg">Convert to JPG</option>
           </select>
           <label for="floatingSelect">Select an Editing Operation</label>
+        </div>
+        <div class="mb-3">
+          <button type="submit" class="btn btn-success">Success</button>
         </div>
       </form>
     </div>
