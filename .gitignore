@@ -1,2 +1,3 @@
-uploads/
-output/
+\uploads
+\output
+*.txt
